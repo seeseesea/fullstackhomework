@@ -1,0 +1,120 @@
+* {
+	
+	margin: 0px;
+	background-color: #de6b48;
+	
+}
+
+
+@font-face {
+	font-family: 'main';
+	src: url('../fonts/Cantarell-Regular.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'logo';
+	src: url('../fonts/FEENC___.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+div {
+	position: absolute;
+	top: 150px;
+	left: 450px;
+	font-family: 'main';
+	border-width: 2px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #EFB0A1;
+    width: 400px;
+    border: 5px solid grey;
+    padding: 5;
+    margin: auto;
+    justify-content: center;
+	box-sizing: border-box;
+	
+ }
+
+ .btn {
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px 20px;
+	display: inline-block;
+	background: #EFB0A1;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .75);
+	text-transform: uppercase;
+	border-radius: 50px;
+	border: 2px solid #fff;
+}
+
+.btn:hover {
+	background: #EFB0A1;
+	box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, .75);
+	color: #EFB0A1;
+	text-shadow: none;
+}
+nav {
+	position: fixed;
+	right: 45px;
+	top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+}
+
+nav>ul>li {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+}
+
+nav a {
+	padding: 5px 20px;
+	text-decoration: none;
+	background: #F56476;
+	border: 2px solid #3B0D11;
+	display: block;
+	border-radius: 20px;
+	text-align: center;
+}
+
+nav ul li ul {
+	display: none;
+}
+
+nav ul li:hover ul {
+	display: block;
+	width: 100px;
+}
+
+nav ul li:hover ul li a {
+	display: block;
+	background: #EFB0A1;
+	border-radius: 20px;
+	border: 1px solid #3b0d11;
+	padding: 10px;
+	margin: 10px 0px;
+	font-size: 14px;
+}
+
+nav li:hover a,
+nav ul li:hover ul li:hover a {
+	background: #EFB0A1;
+	border-color: #3B0D11;
+}
+
+#logo {
+	font-family: 'logo';
+	font-size: 40px;
+	text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
+	display: inline-block;
+	letter-spacing: 1px;
+	color: #7266AA;
+}
+
